@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: 'Gemelli';
+    src: url('fonts/GEMELLI_.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Classes */
+.bg-19323c{
+    background-color: #19323c;
+}
+
+.bg-23ce6b{
+    background-color: #23ce6b;
+}
+
+.bg-f6f8ff{
+    background-color: #f6f8ff;
+}
+
+.txt-19323c{
+    color: #19323c;
+}
+
+.txt-23ce6b{
+    color: #23ce6b;
+}
+
+.txt-f6f8ff{
+    color: #f6f8ff;
+}
+/* Fonts */
+.font-gemelli{
+    font-family: "Gemelli";
+}
+
+.font-lexend-zetta{
+    font-family: 'Lexend Zetta', sans-serif;
+}
+
+.font-size-1{
+    font-size: 2vw;
+}
+.font-size-2{
+    font-size: 5vh;
+}
+.font-size-5{
+    font-size: .75rem;
+}
+
+.font-size-xxl{
+    font-size: 5vw;
+}
+
+.main-front{
+    background-color:#23ce6b ;
+    width: 50vw; 
+    height: 50vh;
+    padding: 4rem 2rem;
+    border-radius: 15px;
+}
+
+.main-back{
+    z-index: -1;
+    margin-top: 7vh;
+    margin-left: 7vw;
+    background-color: #f6f8ff;
+    width: 50vw;
+    height: 50vh;
+    padding: 4rem 2rem;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.mt-10{
+    margin-top: 6rem;
+}
+
+embed{
+    width: 50vw;
+    height: 50vh;
+}
+
+#downloadCV{
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .main-front, .main-back{
+        width: 50vw;
+        height: 25vh;
+
+    }
+
+    .main-back{
+        margin-top: 3vh;
+        margin-left: 6vw;
+    }
+}
+
+
+
+
